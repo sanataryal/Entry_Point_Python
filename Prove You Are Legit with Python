@@ -1,0 +1,29 @@
+codes = [9923, 2526, 9352, 1266, 9523, 4285, 1537]
+fn = input("Please enter your first name: ")
+ln = input("Please enter your last name: ")
+age = int(input("Please enter your age: "))
+
+
+if age < 19:
+    print("Sorry", fn, "", ln, "you are underage to enter this event")
+
+ph = int(input("Please enter your phone (format is 1234567890: "))
+if ph == "":
+    print("Please enter your phone number: ")
+    print("Your code has been sent to your phone: ")
+co = int(input("Please enter your code: "))
+if co in codes:
+    print("Hello,", fn, "", ln, "wecome to my world, Now you can proceed")
+else:
+    print("Code has error, either reenter or cancel")
+pro = input("Do you want to proceed or not (y/n): ")
+if pro == "y":
+    print("Thank You", fn, "Please make sure you have id with you to scan while entering the hall.")
+    id = input("Do you have your id with you? (y/n): ")
+    if id == "y":
+        print("Great")
+    else:
+        print("Sorry, you cannot proceed further, see you next time")
+else:
+    print("Thank You", fn, "will see you again")
+
