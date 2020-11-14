@@ -1,1 +1,2 @@
 # Entry_Point_Python
+This project is all about validity and credentials that you have to present and make sure everything tallies with the policy or the place where you are entering. It can be used in any place where age, code and other factors play major role with legal issues. So, this program will be a boon for them who really wants to confirm all eligibilty that is required to go inside certain place is measured and cleared. 
